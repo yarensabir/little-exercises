@@ -1,0 +1,6 @@
+# date-time fixes
+sudo date +T -s "09:20:01"
+sudo date +%Y%m%d -s "20221212"
+
+# epoch time to time
+datetime.utcfromtimestamp(time.time()).isoformat(sep=' ', timespec='microseconds')
